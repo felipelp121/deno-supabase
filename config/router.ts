@@ -22,3 +22,5 @@ router.get(
   "/test",
   routes.testRoute,
 );
+
+router.get("/info", routes.infoRoute);
